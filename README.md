@@ -18,7 +18,7 @@ config.json file consists of folder structure.
 
 The code consists of below functions -
 
-def add_folder(tree, path, folder_id, name)
+    def add_folder(tree, path, folder_id, name)
     This function takes folder structure (tree) and adds the folder under parent directory (path),folder_id, name
     as arguments
     .
@@ -27,7 +27,7 @@ def add_folder(tree, path, folder_id, name)
             2. Path of parent folder is invalid
 
 
-def remove_folder(tree, path, name)
+    def remove_folder(tree, path, name)
     This function takes folder structure (tree) and adds the folder under parent directory (path), name
     as arguments
 
@@ -35,14 +35,14 @@ def remove_folder(tree, path, name)
             1. The folder with name (name) does not exist.
 
 
-def fetch_folder_path(tree, folder_id)
+    def fetch_folder_path(tree, folder_id)
     This function takes folder structure (tree) and folder_id as arguments
 
     The test case considered are -
             1. The folder_id does not exist.
 
 
-def update_folder_name(tree, folder_id, new_name)
+    def update_folder_name(tree, folder_id, new_name)
     This function takes folder structure (tree), folder_id and new_name as arguments
 
     The test case considered are -
