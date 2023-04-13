@@ -1,0 +1,24 @@
+{
+  "id" : "root",
+  "name": "Root",
+  "subfolders": [
+    {
+      "id": 1,
+      "name": "folder1",
+      "subfolders": [
+        {
+          "id": 2,
+          "name": "folder2",
+          "subfolders": []
+        },
+        {
+          "id": 3,
+          "name": "folder3",
+          "subfolders": []
+        }
+      ]
+    }
+  ]
+}
+
+
